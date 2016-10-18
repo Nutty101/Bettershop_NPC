@@ -1,0 +1,10 @@
+name: Bettershop_NPC
+main: net.livecar.nuttyworks.bettershop_npcs.Bettershop_NPC
+description: Provides and NPC for Bettershops
+version: 1.0
+depend: [Citizens,BetterShops]
+author: Sir_Nutty@Spigot
+commands:
+  bsnpc:
+    description: Configure the plugin with an NPC
+    aliases: [bsn,bettershopnpc]
