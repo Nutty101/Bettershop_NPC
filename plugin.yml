@@ -8,3 +8,10 @@ commands:
   bsnpc:
     description: Configure the plugin with an NPC
     aliases: [bsn,bettershopnpc]
+permissions:    
+  bettershopnpc.interact:
+     description: Allows a user to right click an NPC and open the shop
+     default: true
+  bettershopnpc.setshop:
+     description: Allows a user to set the shop the NPC will open.
+     default: false
